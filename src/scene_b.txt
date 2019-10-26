@@ -1,0 +1,13 @@
+group(scene) {
+    group(something) {
+        circle(100, 320, 80, 10, blue, fill_linecross)
+        ellipse(420, 350, 150, 100, 150, green, fill_linecross)
+        group(smt) {
+            polyline(5, 10, 10, 50, 50, 120, 30, 200, 180, 300, 30, closed, red, fill_linecross)
+        }
+    }
+    group(rects) {
+        square(100, 100, 70, red, fill_line45_rev)
+        rectangle(500, 150, 200, 50, yellow, fill_solid)
+    }
+}

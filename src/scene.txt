@@ -1,0 +1,35 @@
+group(scene, 343, 195) {
+    group(something, 0, 0) {
+        circle(58, 29, 80, 10, blue, fill_linecross)
+        ellipse(483, 426, 150, 100, 150, green, fill_linecross)
+        group(smt, 0, 0) {
+            polyline(5, 13, 349, 53, 389, 123, 369, 203, 519, 303, 369, closed, red, fill_linecross)
+        }
+    }
+    group(rects, 428, -216) {
+        square(100, 106, 70, red, fill_line45_rev)
+        rectangle(-13, 183, 200, 50, yellow, fill_solid)
+        square(-14, 72, 78, brown, fill_solid)
+    }
+    shortcut(rects, rects_ln, 432, -34)
+    rectangle(219, -48, 162, 264, yellow, fill_line45)
+    square(-219, -10, 127, yellow, fill_linecross)
+    circle(26, 5, 25, 20, yellow, fill_solid)
+    circle(88.5, 5.5, 26.5, 20, yellow, fill_solid)
+    group(rects_2, -264, 111) {
+        square(100, 106, 70, red, fill_line45_rev)
+        rectangle(-14, 189, 200, 50, yellow, fill_solid)
+        square(17, 44, 78, brown, fill_solid)
+    }
+    group(rects_2_2, -202, 286) {
+        square(100, 106, 70, red, fill_line45_rev)
+        rectangle(-13, 183, 200, 50, yellow, fill_solid)
+        square(1, 98, 78, brown, fill_solid)
+    }
+    group(rects_2_2_2, 7, 42) {
+        square(100, 106, 70, red, fill_line45_rev)
+        rectangle(-13, 183, 200, 50, yellow, fill_solid)
+        square(-9, 78, 78, brown, fill_solid)
+    }
+    shortcut(rects_2_2_2, rects_2_2_2_2, -274, -258)
+}

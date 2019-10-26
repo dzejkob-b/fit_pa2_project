@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="semestralka" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/semestralka" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/semestralka" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Color.cpp" />
+		<Unit filename="Color.h" />
+		<Unit filename="DrawArea.cpp" />
+		<Unit filename="DrawArea.h" />
+		<Unit filename="DrawCircle.cpp" />
+		<Unit filename="DrawCircle.h" />
+		<Unit filename="DrawEllipse.cpp" />
+		<Unit filename="DrawEllipse.h" />
+		<Unit filename="DrawEntity.cpp" />
+		<Unit filename="DrawEntity.h" />
+		<Unit filename="DrawFiller.cpp" />
+		<Unit filename="DrawFiller.h" />
+		<Unit filename="DrawNode.cpp" />
+		<Unit filename="DrawNode.h" />
+		<Unit filename="DrawRectangle.cpp" />
+		<Unit filename="DrawRectangle.h" />
+		<Unit filename="DrawShortcut.cpp" />
+		<Unit filename="DrawShortcut.h" />
+		<Unit filename="DrawSquare.cpp" />
+		<Unit filename="DrawSquare.h" />
+		<Unit filename="FillStyle.cpp" />
+		<Unit filename="FillStyle.h" />
+		<Unit filename="GraphicPrinter.cpp" />
+		<Unit filename="GraphicPrinter.h" />
+		<Unit filename="GraphicPrinterBMP.cpp" />
+		<Unit filename="GraphicPrinterBMP.h" />
+		<Unit filename="GraphicPrinterSDL.cpp" />
+		<Unit filename="GraphicPrinterSDL.h" />
+		<Unit filename="IBorder.h" />
+		<Unit filename="IMouse.h" />
+		<Unit filename="IRenderer.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="MenuCollector.cpp" />
+		<Unit filename="MenuCollector.h" />
+		<Unit filename="MenuItem.cpp" />
+		<Unit filename="MenuItem.h" />
+		<Unit filename="MenuItemTitle.cpp" />
+		<Unit filename="MenuItemTitle.h" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.h" />
+		<Unit filename="PointGenerator.cpp" />
+		<Unit filename="PointGenerator.h" />
+		<Unit filename="Program.cpp" />
+		<Unit filename="Program.h" />
+		<Unit filename="Rect.cpp" />
+		<Unit filename="Rect.h" />
+		<Unit filename="SceneComposer.cpp" />
+		<Unit filename="SceneComposer.h" />
+		<Unit filename="SceneParser.cpp" />
+		<Unit filename="SceneParser.h" />
+		<Unit filename="SceneParserFrag.cpp" />
+		<Unit filename="SceneParserFrag.h" />
+		<Unit filename="Services.cpp" />
+		<Unit filename="Services.h" />
+		<Unit filename="Translate.cpp" />
+		<Unit filename="Translate.h" />
+		<Unit filename="UserControl.cpp" />
+		<Unit filename="UserControl.h" />
+		<Unit filename="UserDrawHelp.cpp" />
+		<Unit filename="UserDrawHelp.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="tests.cpp" />
+		<Unit filename="tests.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,11 @@
+#ifndef MENUITEM_H_INCLUDED
+#define MENUITEM_H_INCLUDED
+
+class MenuItem {
+    private:
+    public:
+        MenuItem();
+        ~MenuItem();
+};
+
+#endif // MENUITEM_H_INCLUDED

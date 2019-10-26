@@ -1,0 +1,35 @@
+#include "PointGenerator.h"
+#include <math.h>
+
+PointGenerator::PointGenerator() {
+}
+
+PointGenerator::~PointGenerator() {
+}
+
+void PointGenerator::setDensity(int _density) {
+    this->density = _density;
+}
+
+void PointGenerator::createCircle(Point center, double radius) {
+
+    this->points.clear();
+
+    for (int sf = 0; sf < this->density; sf++) {
+        double ang = (M_PI * 2.0 / this->density) * sf;
+
+        Point nPt;
+
+        nPt.setVals(center.getX() + sin(ang) * radius, center.getY() + cos(ang) * radius);
+        this->points.push_back(nPt);
+    }
+
+}
+
+void PointGenerator::appendTo(std::list<Point> & trg) {
+
+    for (std::list<Point>::iterator _it = this->points.begin(); _it != this->points.end(); ++_it) {
+        trg.push_back(*_it);
+    }
+
+}

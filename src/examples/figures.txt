@@ -1,0 +1,26 @@
+group(scene, 113, 71) {
+    group(figure, 19, 164) {
+        polyline(8, 148, 318, 172, 317, 190, 374, 218, 374, 238, 315, 262, 313, 232, 401, 177, 401, closed, green, fill_line45_rev)
+        polyline(7, 177, 409, 174, 497, 196, 496, 201, 428, 211, 496, 232, 496, 230, 411, closed, red, fill_line45)
+        circle(204.5, 347.5, 21.5, 20, brown, fill_solid)
+    }
+    shortcut(figure, figure_2, 141, 161)
+    shortcut(figure, figure_3, 264, 160)
+    shortcut(figure, figure_4, 391, 160)
+    shortcut(figure, figure_6, 83, -26)
+    shortcut(figure, figure_7, 205, -29)
+    shortcut(figure, figure_8, 332, -33)
+    shortcut(figure, figure_5, 144, -216)
+    shortcut(figure, figure_9, 265, -221)
+    group(items, 0, -2) {
+        polyline(8, 24, 102, 812, 86, 867, -4, 842, -15, 797, 63, 27, 80, -23, 16, -46, 35, closed, white, fill_linecross)
+        circle(86.5, 26.5, 52.5, 20, white, fill_solid)
+        circle(196.5, 23.5, 52.5, 20, white, fill_solid)
+        circle(308.5, 21.5, 52.5, 20, white, fill_solid)
+        circle(418.5, 18.5, 52.5, 20, white, fill_solid)
+        circle(527.5, 14.5, 52.5, 20, white, fill_solid)
+        circle(636.5, 12.5, 52.5, 20, white, fill_solid)
+        circle(747.5, 10.5, 52.5, 20, white, fill_solid)
+    }
+    rectangle(-101, 659, 1006, 33, darkgray, fill_solid)
+}

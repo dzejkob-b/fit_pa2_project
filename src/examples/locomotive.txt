@@ -1,0 +1,62 @@
+group(scene, 0, 0) {
+    group(body, 52, 78) {
+        group(chimney, 0, 0) {
+            group(steam, 0, 0) {
+                ellipse(448, -12, 47, 52, 20, white, fill_line45_rev)
+                ellipse(231, 20.5, 39, 35.5, 20, white, fill_line45_rev)
+                ellipse(165.5, 72, 25.5, 25, 20, white, fill_line45)
+                ellipse(328, -13.5, 50, 38.5, 20, white, fill_line45)
+                ellipse(591, -0.5, 68, 54.5, 20, white, fill_line45)
+                ellipse(724.5, 48, 37.5, 24, 20, white, fill_line45)
+                ellipse(735, -30, 33, 23, 20, white, fill_line45_rev)
+            }
+            polyline(10, 130, 309, 130, 162, 111, 117, 111, 84, 236, 84, 234, 114, 208, 160, 208, 184, 227, 222, 228, 311, closed, gray, fill_solid)
+            ellipse(299.5, 282.5, 37.5, 58.5, 20, gray, fill_solid)
+            ellipse(392.5, 283.5, 37.5, 58.5, 20, gray, fill_solid)
+            ellipse(487.5, 280.5, 37.5, 58.5, 20, gray, fill_solid)
+        }
+        polyline(12, 62, 494, 62, 365, 85, 317, 130, 290, 299, 290, 545, 290, 545, 362, 591, 407, 834, 407, 834, 479, 815, 497, 77, 497, closed, gray, fill_solid)
+        group(small_wheel, 36, 11) {
+            circle(94, 490, 37, 20, gray, fill_solid)
+            circle(94, 490, 23, 20, yellow, fill_line45)
+        }
+        group(wheel, 36, 5) {
+            circle(221.5, 469.5, 65.5, 20, gray, fill_solid)
+            circle(221, 470, 51, 20, yellow, fill_linecross)
+        }
+        shortcut(wheel, wheel_2, 175, 4)
+        shortcut(wheel, wheel_3, 314, 5)
+        shortcut(small_wheel, small_wheel_2, 564, 7)
+        shortcut(small_wheel, small_wheel_3, 660, 7)
+    }
+    group(cabin, 0, 67) {
+        polyline(20, 612, 137, 628, 173, 627, 266, 604, 302, 604, 368, 647, 410, 883, 411, 883, 311, 839, 311, 799, 351, 773, 351, 774, 176, 793, 137, 732, 136, 748, 170, 748, 348, 712, 348, 651, 268, 652, 176, 672, 138, closed, gray, fill_linecross)
+        group(roof, 0, 0) {
+            polyline(5, 544, 136, 809, 140, 809, 112, 596, 109, 544, 123, closed, red, fill_solid)
+        }
+    }
+    group(grass, 0, 0) {
+        rectangle(2, 661, 1021, 93, green, fill_linecross)
+        group(grass_chunk, 0, 0) {
+            polyline(16, 59, 737, 47, 707, 28, 688, 67, 700, 74, 716, 74, 687, 95, 672, 86, 692, 86, 718, 95, 733, 105, 703, 137, 687, 121, 712, 113, 734, 103, 748, 66, 744, closed, green, fill_linecross)
+        }
+        shortcut(grass_chunk, grass_chunk_2, 229, -4)
+        shortcut(grass_chunk, grass_chunk_3, 299, 3)
+        shortcut(grass_chunk, grass_chunk_4, 586, 1)
+        shortcut(grass_chunk, grass_chunk_5, 821, 5)
+    }
+    group(railway, 0, -32) {
+        rectangle(3, 650, 1020, 24, darkgray, fill_solid)
+        group(threshold, 0, 5) {
+            rectangle(29, 674, 126, 25, brown, fill_solid)
+            circle(47.5, 671.5, 8.5, 8, darkgray, fill_solid)
+            circle(134.5, 671.5, 8.5, 8, darkgray, fill_solid)
+        }
+        shortcut(threshold, threshold_2, 148, 5)
+        shortcut(threshold, threshold_3, 294, 5)
+        shortcut(threshold, threshold_4, 438, 5)
+        shortcut(threshold, threshold_5, 582, 5)
+        shortcut(threshold, threshold_6, 726, 5)
+        shortcut(threshold, threshold_7, 869, 6)
+    }
+}

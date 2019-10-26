@@ -1,0 +1,660 @@
+# depslib dependency file v1.0
+1557354531 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\main.cpp
+	<iostream>
+	<windows.h>
+	"Program.h"
+	"tests.h"
+
+1557356655 s:\dokumenty\cvut.fit\bi-pa2\semestralka\program.h
+	<iostream>
+	<sstream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	"IRenderer.h"
+	"IMouse.h"
+	"MenuCollector.h"
+	"UserControl.h"
+	"DrawArea.h"
+	"GraphicPrinterSDL.h"
+
+1557357462 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\program.cpp
+	"Program.h"
+	"Services.h"
+	"GraphicPrinterSDL.h"
+	<string>
+	<sstream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+
+1557357478 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\menu.cpp
+	"Menu.h"
+	"Services.h"
+	"MenuCollector.h"
+	<SDL2/SDL.h>
+
+1557328175 s:\dokumenty\cvut.fit\bi-pa2\semestralka\menu.h
+	<string>
+	<vector>
+	"GraphicPrinter.h"
+	"MenuItem.h"
+	"MenuItemTitle.h"
+
+1557324977 s:\dokumenty\cvut.fit\bi-pa2\semestralka\menucollector.h
+	<list>
+	"GraphicPrinter.h"
+	"Menu.h"
+
+1557328209 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\menucollector.cpp
+	"MenuCollector.h"
+	<algorithm>
+
+1557326101 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\menuitem.cpp
+	"MenuItem.h"
+	"Menu.h"
+	"MenuCollector.h"
+	"Rect.h"
+	"Services.h"
+
+1557325042 s:\dokumenty\cvut.fit\bi-pa2\semestralka\menuitem.h
+	<SDL2/SDL.h>
+	<string>
+	"GraphicPrinter.h"
+	"IRenderer.h"
+
+1557151577 s:\dokumenty\cvut.fit\bi-pa2\semestralka\irenderer.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<sstream>
+
+1557099582 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\services.cpp
+	"Services.h"
+
+1557099562 s:\dokumenty\cvut.fit\bi-pa2\semestralka\services.h
+	"IRenderer.h"
+	"IMouse.h"
+
+1557357205 s:\dokumenty\cvut.fit\bi-pa2\semestralka\imouse.h
+	<SDL2/SDL.h>
+
+1557324662 s:\dokumenty\cvut.fit\bi-pa2\semestralka\usercontrol.h
+	"GraphicPrinter.h"
+	"MenuCollector.h"
+	"UserDrawHelp.h"
+	"DrawArea.h"
+
+1557357326 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\usercontrol.cpp
+	"UserControl.h"
+	"Services.h"
+	<iostream>
+
+1557357423 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\userdrawhelp.cpp
+	"UserDrawHelp.h"
+	"UserControl.h"
+	"Services.h"
+	"PointGenerator.h"
+	"DrawEntity.h"
+	"DrawEllipse.h"
+	"DrawCircle.h"
+	"DrawRectangle.h"
+	"DrawSquare.h"
+	<math.h>
+
+1557324631 s:\dokumenty\cvut.fit\bi-pa2\semestralka\userdrawhelp.h
+	<list>
+	<vector>
+	"GraphicPrinter.h"
+	"Point.h"
+	"DrawArea.h"
+
+1557357251 s:\dokumenty\cvut.fit\bi-pa2\semestralka\point.h
+	<vector>
+	"Point.h"
+	"IRenderer.h"
+
+1557357267 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\point.cpp
+	<math.h>
+	<float.h>
+	<algorithm>
+	"GraphicPrinter.h"
+	"Point.h"
+	"Color.h"
+	"Services.h"
+
+1557164693 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\pointgenerator.cpp
+	"PointGenerator.h"
+	<math.h>
+
+1557164609 s:\dokumenty\cvut.fit\bi-pa2\semestralka\pointgenerator.h
+	"Point.h"
+	<list>
+	<vector>
+
+1557357516 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawarea.cpp
+	"DrawArea.h"
+	"Services.h"
+	"SceneParser.h"
+	<algorithm>
+	<iostream>
+
+1557344961 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawarea.h
+	<vector>
+	"DrawEntity.h"
+	"GraphicPrinter.h"
+
+1557357613 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawentity.cpp
+	<sstream>
+	<math.h>
+	<iostream>
+	"DrawEntity.h"
+	"Point.h"
+	"Services.h"
+	"PointGenerator.h"
+
+1557329015 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawentity.h
+	"Point.h"
+	"DrawFiller.h"
+	"DrawNode.h"
+	"IBorder.h"
+	"GraphicPrinter.h"
+	<vector>
+
+1557167579 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawellpise.cpp
+	"DrawEllipse.h"
+
+1557319712 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawellipse.h
+	"DrawEntity.h"
+
+1557319784 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawellipse.cpp
+	"DrawEllipse.h"
+	"PointGenerator.h"
+
+1557269190 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawcircle.cpp
+	"DrawCircle.h"
+
+1557269185 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawcircle.h
+	"DrawEntity.h"
+	"DrawEllipse.h"
+
+1557329831 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawrectangle.cpp
+	"DrawRectangle.h"
+	"PointGenerator.h"
+	<iostream>
+
+1557319716 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawrectangle.h
+	"DrawEntity.h"
+
+1557269214 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawsquare.cpp
+	"DrawSquare.h"
+
+1557269211 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawsquare.h
+	"DrawEntity.h"
+	"DrawRectangle.h"
+
+1557324853 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawfiller.h
+	<vector>
+	"GraphicPrinter.h"
+	"IBorder.h"
+	"Point.h"
+	"Color.h"
+	"FillStyle.h"
+
+1557357589 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawfiller.cpp
+	"DrawEntity.h"
+	"DrawFiller.h"
+	"Services.h"
+
+1557319014 s:\dokumenty\cvut.fit\bi-pa2\semestralka\iborder.h
+	"Point.h"
+
+1557326187 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\menuitemtitle.cpp
+	"MenuItemTitle.h"
+	"Services.h"
+
+1557325095 s:\dokumenty\cvut.fit\bi-pa2\semestralka\menuitemtitle.h
+	"MenuItem.h"
+
+1557247152 s:\dokumenty\cvut.fit\bi-pa2\semestralka\tests.cpp
+
+1557247230 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\tests.cpp
+
+1557344597 s:\dokumenty\cvut.fit\bi-pa2\semestralka\tests.h
+	<assert.h>
+	"SceneParser.h"
+
+1557269747 s:\dokumenty\cvut.fit\bi-pa2\semestralka\sceneparser.h
+	"DrawArea.h"
+	"DrawNode.h"
+
+1557269907 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\sceneparser.cpp
+	"SceneParser.h"
+	"SceneParserFrag.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<vector>
+
+1557357571 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\sceneparserfrag.cpp
+	"SceneParserFrag.h"
+	"SceneParser.h"
+	"DrawSquare.h"
+	"DrawCircle.h"
+	"DrawEllipse.h"
+	"DrawRectangle.h"
+	<iostream>
+	<stdio.h>
+
+1557269891 s:\dokumenty\cvut.fit\bi-pa2\semestralka\sceneparserfrag.h
+	"Color.h"
+	"Point.h"
+	"DrawNode.h"
+	<string>
+	<vector>
+	<ostream>
+
+1557329663 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawnode.cpp
+	"DrawNode.h"
+	<list>
+	<vector>
+	<iostream>
+	<algorithm>
+
+1557329038 s:\dokumenty\cvut.fit\bi-pa2\semestralka\drawnode.h
+	"Point.h"
+	"Translate.h"
+	"GraphicPrinter.h"
+	<vector>
+	<string>
+
+1557349686 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\color.cpp
+	"Color.h"
+	<string.h>
+
+1557349691 s:\dokumenty\cvut.fit\bi-pa2\semestralka\color.h
+	"SDL2/SDL.h"
+
+1557261806 s:\dokumenty\cvut.fit\bi-pa2\semestralka\fillstyle.h
+
+1557261928 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\fillstyle.cpp
+	"FillStyle.h"
+	<string.h>
+
+1557329278 s:\dokumenty\cvut.fit\bi-pa2\semestralka\translate.h
+	"Point.h"
+
+1557329588 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\translate.cpp
+	"Translate.h"
+	<iostream>
+
+1557343522 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\graphicprinter.cpp
+	"GraphicPrinter.h"
+	"Point.h"
+
+1557343389 s:\dokumenty\cvut.fit\bi-pa2\semestralka\graphicprinter.h
+	"Point.h"
+	"Color.h"
+	"Rect.h"
+
+1557343747 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\graphicprintersdl.cpp
+	"GraphicPrinterSDL.h"
+	"Services.h"
+	"Point.h"
+
+1557326753 s:\dokumenty\cvut.fit\bi-pa2\semestralka\graphicprintersdl.h
+	"GraphicPrinter.h"
+	"SDL2/SDL.h"
+
+1557326677 s:\dokumenty\cvut.fit\bi-pa2\semestralka\rect.h
+	"SDL2/SDL.h"
+
+1557326689 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\rect.cpp
+	"Rect.h"
+
+1558893760 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\color.cpp
+	"Color.h"
+	<string.h>
+
+1558816806 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\color.h
+	"SDL2/SDL.h"
+	<string>
+	<map>
+
+1558895821 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawarea.cpp
+	"DrawArea.h"
+	"Services.h"
+	"SceneParser.h"
+	"SceneComposer.h"
+	"GraphicPrinterBMP.h"
+	<algorithm>
+	<iostream>
+	<list>
+
+1558895655 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawarea.h
+	<vector>
+	"IBorder.h"
+	"DrawEntity.h"
+	"GraphicPrinter.h"
+
+1558879849 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawentity.h
+	"Point.h"
+	"DrawFiller.h"
+	"DrawNode.h"
+	"IBorder.h"
+	"GraphicPrinter.h"
+	<vector>
+
+1558817985 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\point.h
+	<vector>
+	"Point.h"
+	"IRenderer.h"
+
+1558817792 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\irenderer.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<sstream>
+
+1558817324 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawfiller.h
+	<vector>
+	"GraphicPrinter.h"
+	"IBorder.h"
+	"Point.h"
+	"Color.h"
+	"FillStyle.h"
+
+1558817657 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\graphicprinter.h
+	"Point.h"
+	"Color.h"
+	"Rect.h"
+
+1558818171 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\rect.h
+	"SDL2/SDL.h"
+
+1558817733 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\iborder.h
+	"Point.h"
+
+1558817613 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\fillstyle.h
+
+1558882019 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawnode.h
+	"Point.h"
+	"Translate.h"
+	"GraphicPrinter.h"
+	<vector>
+	<string>
+
+1558818434 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\translate.h
+	"Point.h"
+
+1558818369 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\services.h
+	"IRenderer.h"
+	"IMouse.h"
+
+1558817737 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\imouse.h
+	<SDL2/SDL.h>
+
+1558888079 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\sceneparser.h
+	"DrawArea.h"
+	"DrawNode.h"
+
+1558880546 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawcircle.cpp
+	"DrawCircle.h"
+	"FillStyle.h"
+
+1558880178 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawcircle.h
+	"DrawEntity.h"
+	"DrawEllipse.h"
+
+1558880080 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawellipse.h
+	"DrawEntity.h"
+
+1558880543 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawellipse.cpp
+	"DrawEllipse.h"
+	"PointGenerator.h"
+
+1558818062 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\pointgenerator.h
+	"Point.h"
+	<list>
+	<vector>
+
+1558880539 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawentity.cpp
+	<sstream>
+	<math.h>
+	<iostream>
+	"DrawEntity.h"
+	"Point.h"
+	"Services.h"
+	"PointGenerator.h"
+
+1558791047 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawfiller.cpp
+	"DrawEntity.h"
+	"DrawFiller.h"
+	"Services.h"
+
+1558882182 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawnode.cpp
+	"DrawNode.h"
+	"DrawShortcut.h"
+	<list>
+	<vector>
+	<iostream>
+	<algorithm>
+
+1558880549 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawrectangle.cpp
+	"DrawRectangle.h"
+	"PointGenerator.h"
+	<iostream>
+
+1558880224 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawrectangle.h
+	"DrawEntity.h"
+
+1558880553 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawsquare.cpp
+	"DrawSquare.h"
+
+1558880283 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawsquare.h
+	"DrawEntity.h"
+	"DrawRectangle.h"
+
+1558790797 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\fillstyle.cpp
+	"FillStyle.h"
+	<string.h>
+
+1557343522 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\graphicprinter.cpp
+	"GraphicPrinter.h"
+	"Point.h"
+
+1557343747 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\graphicprintersdl.cpp
+	"GraphicPrinterSDL.h"
+	"Services.h"
+	"Point.h"
+
+1558817676 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\graphicprintersdl.h
+	"GraphicPrinter.h"
+	"SDL2/SDL.h"
+
+1558895309 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\main.cpp
+	<iostream>
+	<windows.h>
+	"Program.h"
+	"tests.h"
+
+1558818144 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\program.h
+	<iostream>
+	<sstream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	"IRenderer.h"
+	"IMouse.h"
+	"MenuCollector.h"
+	"UserControl.h"
+	"DrawArea.h"
+	"GraphicPrinterSDL.h"
+
+1558817883 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menucollector.h
+	<list>
+	"GraphicPrinter.h"
+	"Menu.h"
+
+1558817855 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menu.h
+	<string>
+	<vector>
+	"GraphicPrinter.h"
+	"MenuItem.h"
+	"MenuItemTitle.h"
+
+1558817906 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menuitem.h
+	<SDL2/SDL.h>
+	<string>
+	"GraphicPrinter.h"
+	"IRenderer.h"
+
+1558817941 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menuitemtitle.h
+	"MenuItem.h"
+
+1558818505 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\usercontrol.h
+	"GraphicPrinter.h"
+	"MenuCollector.h"
+	"UserDrawHelp.h"
+	"DrawArea.h"
+
+1558818685 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\userdrawhelp.h
+	<list>
+	<vector>
+	"GraphicPrinter.h"
+	"Point.h"
+	"DrawArea.h"
+
+1558822815 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\tests.h
+
+1558820548 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menu.cpp
+	"Menu.h"
+	"Services.h"
+	"MenuCollector.h"
+	<SDL2/SDL.h>
+
+1558820584 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menucollector.cpp
+	"MenuCollector.h"
+	<algorithm>
+
+1558820725 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menuitem.cpp
+	"MenuItem.h"
+	"Menu.h"
+	"MenuCollector.h"
+	"Rect.h"
+	"Services.h"
+
+1557326187 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\menuitemtitle.cpp
+	"MenuItemTitle.h"
+	"Services.h"
+
+1558821398 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\point.cpp
+	<math.h>
+	<float.h>
+	<algorithm>
+	"GraphicPrinter.h"
+	"Point.h"
+	"Color.h"
+	"Services.h"
+
+1558896904 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\pointgenerator.cpp
+	"PointGenerator.h"
+	<math.h>
+
+1558890784 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\program.cpp
+	"Program.h"
+	"Services.h"
+	"GraphicPrinterSDL.h"
+	<string>
+	<sstream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+
+1557326689 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\rect.cpp
+	"Rect.h"
+
+1558896550 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\sceneparser.cpp
+	"SceneParser.h"
+	"SceneParserFrag.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<vector>
+
+1558818326 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\sceneparserfrag.h
+	"Color.h"
+	"Point.h"
+	"DrawNode.h"
+	<string>
+	<vector>
+	<ostream>
+
+1558897227 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\sceneparserfrag.cpp
+	"SceneParserFrag.h"
+	"SceneParser.h"
+	"DrawSquare.h"
+	"DrawCircle.h"
+	"DrawEllipse.h"
+	"DrawRectangle.h"
+	"DrawShortcut.h"
+	<iostream>
+	<stdio.h>
+
+1557099582 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\services.cpp
+	"Services.h"
+
+1558821822 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\translate.cpp
+	"Translate.h"
+	<iostream>
+
+1558882504 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\usercontrol.cpp
+	"UserControl.h"
+	"Services.h"
+	"DrawShortcut.h"
+	<iostream>
+
+1558798349 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\userdrawhelp.cpp
+	"UserDrawHelp.h"
+	"UserControl.h"
+	"Services.h"
+	"PointGenerator.h"
+	"DrawEntity.h"
+	"DrawEllipse.h"
+	"DrawCircle.h"
+	"DrawRectangle.h"
+	"DrawSquare.h"
+	<math.h>
+
+1558821689 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\scenecomposer.cpp
+	"SceneComposer.h"
+
+1558822462 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\scenecomposer.h
+	<iostream>
+	<fstream>
+	"DrawArea.h"
+
+1558881699 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawshortcut.cpp
+	"DrawShortcut.h"
+
+1558817587 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\drawshortcut.h
+	<iostream>
+	"DrawNode.h"
+
+1558895623 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\tests.cpp
+	"tests.h"
+	<assert.h>
+	<iostream>
+	"SceneParser.h"
+	"GraphicPrinterBMP.h"
+
+1558894498 source:s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\graphicprinterbmp.cpp
+	"GraphicPrinterBMP.h"
+	<stdio.h>
+	<string.h>
+	<iostream>
+
+1558876384 s:\dokumenty\cvut.fit\bi-pa2\semestralka\src\graphicprinterbmp.h
+	"GraphicPrinter.h"
+	"DrawArea.h"
+	"IBorder.h"
+	<fstream>
+
